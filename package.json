@@ -1,0 +1,37 @@
+{
+  "name": "starter_nodejs_backend",
+  "version": "1.0.0",
+  "description": "starter nodejs backend",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server",
+    "test": "start:test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malvinys/starter_nodejs_backend.git"
+  },
+  "keywords": [
+    "starter_nodejs_backend"
+  ],
+  "author": "malvinys",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/malvinys/starter_nodejs_backend/issues"
+  },
+  "homepage": "https://github.com/malvinys/starter_nodejs_backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.22.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "nodemon": "^2.0.7"
+  }
+}
